@@ -1,5 +1,5 @@
-.navbar{
-  background: rgba(21, 103, 167, 0.7);
+.navbar {
+  background: rgba(21, 103, 167, 0.9);
   margin: 0;
   border-radius: 0;
   border: 0;
@@ -26,6 +26,38 @@
         width: 120px;
         height: 146px;
       }
+    }
+  }
+  .nav-caixa {
+    font-size: 10px;
+    text-transform: uppercase;
+    a {
+      &:hover, &:active, &:focus {
+        color: #acdbff !important;
+        background-color: transparent;
+      }
+    }
+    @media (max-width: @screen-sm) {
+      font-size: 15px;
+    }
+  }
+  .user-ident {
+    font-size: 11px;
+    padding: 15px 30px;
+    p{
+      line-height: 0;
+      @media (max-width: @screen-sm) {
+        line-height: 14px;
+      }
+    }
+    @media (max-width: @screen-md) {
+      padding: 15px 10px;
+    }
+
+    @media (max-width: @screen-sm) {
+      padding: 70px 0 0 0;
+      font-size: 15px;
+      border-bottom: 1px solid @white;
     }
   }
 }
