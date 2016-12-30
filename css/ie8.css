@@ -1,0 +1,20 @@
+.outer-wrapper{
+    display: none;
+}
+
+body{
+    padding: 80px;
+    text-align: center;
+    font-family: "cocogoose", "opensans", Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #fff;
+    font-weight: 200;
+    background-color: #599edc;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/backgrounds/bck-blue-one.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/backgrounds/bck-blue-one.jpg', sizingMethod='scale')";
+    background-image: url("../img/backgrounds/bck-blue-one.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}

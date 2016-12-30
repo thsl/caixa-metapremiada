@@ -1,0 +1,107 @@
+/* abacaxi */
+.seleciona-item.abacaxi input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/abacaxi.png");
+}
+
+.seleciona-item.abacaxi input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_abacaxi.png");
+}
+
+/* biscoito */
+.seleciona-item.biscoito input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/biscoito.png");
+}
+
+.seleciona-item.biscoito input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_biscoito.png");
+}
+
+/* canela */
+.seleciona-item.canela input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/canela.png");
+}
+
+.seleciona-item.canela input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_canela.png");
+}
+
+/* caramelo */
+.seleciona-item.caramelo input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/caramelo.png");
+}
+
+.seleciona-item.caramelo input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_caramelo.png");
+}
+
+/* chocolate-belga */
+.seleciona-item.chocolate-belga input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/chocolate_belga.png");
+}
+
+.seleciona-item.chocolate-belga input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_chocolate_belga.png");
+}
+
+/* chocolate-branco */
+.seleciona-item.chocolate-branco input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/chocolate_branco.png");
+}
+
+.seleciona-item.chocolate-branco input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_chocolate_branco.png");
+}
+
+/* coco */
+.seleciona-item.coco input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/coco.png");
+}
+
+.seleciona-item.coco input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_coco.png");
+}
+
+/* doce de leite */
+.seleciona-item.doce-de-leite input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/doce_de_leite.png");
+}
+
+.seleciona-item.doce-de-leite input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_doce_de_leite.png");
+}
+
+/* mashmellow */
+.seleciona-item.mashmellow input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/mashmellow.png");
+}
+
+.seleciona-item.mashmellow input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_mashmellow.png");
+}
+
+/* mirtilo */
+.seleciona-item.mirtilo input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/mirtilo.png");
+}
+
+.seleciona-item.mirtilo input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_mirtilo.png");
+}
+
+/* morango */
+.seleciona-item.morango input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/morango.png");
+}
+
+.seleciona-item.morango input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_morango.png");
+}
+
+/* nozes */
+.seleciona-item.nozes input[type=checkbox] + label {
+    background-image: url("../img/outros/ingredientes/inactive/nozes.png");
+}
+
+.seleciona-item.nozes input[type=checkbox]:checked + label {
+    background-image: url("../img/outros/ingredientes/active/check-_nozes.png");
+}

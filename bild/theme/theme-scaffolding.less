@@ -1,0 +1,519 @@
+// coisas específicas do theme
+//
+
+// coisas genéricas
+
+.v-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.font-futura {
+  font-family: @font-family-futura;
+}
+
+.font-ecuyer {
+  font-family: @font-family-ecuyer;
+}
+
+.alert {
+  padding: 8px;
+  font-family: @font-family-futura;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 700;
+}
+
+.alert-danger {
+  color: #fff;
+  background-color: rgba(255, 169, 0, 0.72);
+  border: none;
+}
+
+.alert-warning {
+  background-color: #d18438;
+}
+
+// Imagens adaptativas
+.img-adaptative {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-full {
+  width: 100%;
+  height: auto !important;
+}
+
+// ---------------------------------------------------------------
+
+/* Tamanhos de Fontes */
+
+.fontsize-xs {
+  font-size: 11px;
+}
+
+.fontsize-sm {
+  font-size: 15px;
+}
+
+.fontsize-md {
+  font-size: 20px;
+}
+
+.fontsize-lg {
+  font-size: 25px;
+}
+
+.fontsize-xl {
+  font-size: 33px;
+}
+
+.fontsize-xxl {
+  font-size: 53px;
+}
+
+// ---------------------------------------------------------------
+
+/* Dividers */
+
+.divider-top {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #c8c8c8;
+}
+
+.divider-right {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #c8c8c8;
+}
+
+.divider-bottom {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.divider-left {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #c8c8c8;
+}
+
+// ---------------------------------------------------------------
+
+/* Cores genéricas, para div inteiras */
+
+// ---------------------------------------------------------------
+
+/* Cores genéricas, para textos */
+.text-white {
+  color: #fff;
+  &.a {
+    color: #fff;
+  }
+  a {
+    color: #fff;
+  }
+}
+
+.text-red {
+  color: @red !important;
+  &.a {
+    color: @red;
+  }
+  a {
+    color: @red;
+  }
+}
+
+.text-yellow {
+  color: @yellow !important;
+  &.a {
+    color: @yellow;
+  }
+  a {
+    color: @yellow;
+  }
+}
+
+.text-aqua {
+  color: @aqua !important;
+  &.a {
+    color: @aqua;
+  }
+  a {
+    color: @aqua;
+  }
+}
+
+.text-blue {
+  color: @blue !important;
+  &.a {
+    color: @blue;
+  }
+  a {
+    color: @blue;
+  }
+}
+
+.text-dark-blue {
+  color: @blue-two !important;
+  &.a {
+    color: @blue-two;
+  }
+  a {
+    color: @blue-two;
+  }
+}
+
+.text-black {
+  color: @black !important;
+  &.a {
+    color: @black;
+  }
+  a {
+    color: @black;
+  }
+}
+
+.text-light-blue {
+  color: @light-blue !important;
+  &.a {
+    color: @light-blue;
+  }
+  a {
+    color: @light-blue;
+  }
+}
+
+.text-light-blue-two {
+  color: @blue-light-two !important;
+  &.a {
+    color: @blue-light-two;
+  }
+  a {
+    color: @blue-light-two;
+  }
+}
+
+.text-green {
+  color: @green !important;
+  &.a {
+    color: @green;
+  }
+  a {
+    color: @green;
+  }
+}
+
+.text-navy {
+  color: @navy !important;
+  &.a {
+    color: @navy;
+  }
+  a {
+    color: @navy;
+  }
+}
+
+.text-teal {
+  color: @teal !important;
+  &.a {
+    color: @teal;
+  }
+  a {
+    color: @teal;
+  }
+}
+
+.text-olive {
+  color: @olive !important;
+  &.a {
+    color: @olive;
+  }
+  a {
+    color: @olive;
+  }
+}
+
+.text-lime {
+  color: @lime !important;
+  &.a {
+    color: @lime;
+  }
+  a {
+    color: @lime;
+  }
+}
+
+.text-orange {
+  color: @orange !important;
+  &.a {
+    color: @orange;
+  }
+  a {
+    color: @orange;
+  }
+}
+
+.text-fuchsia {
+  color: @fuchsia !important;
+  &.a {
+    color: @fuchsia;
+  }
+  a {
+    color: @fuchsia;
+  }
+}
+
+.text-purple {
+  color: @purple !important;
+  &.a {
+    color: @purple;
+  }
+  a {
+    color: @purple;
+  }
+}
+
+.text-maroon {
+  color: @maroon !important;
+  &.a {
+    color: @maroon;
+  }
+  a {
+    color: @maroon;
+  }
+}
+
+/*
+text-red
+text-yellow
+text-aqua
+text-blue
+text-black
+text-light-blue
+text-green
+text-navy
+text-teal
+text-olive
+text-lime
+text-orange
+text-fuchsia
+text-purple
+text-maroon
+*/
+
+// ---------------------------------------------------------------
+
+/* Rolagens */
+
+.rol-vert {
+  display: block;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.rol-hor {
+  display: block;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.rol-hor-vert {
+  display: block;
+  overflow: auto;
+}
+
+.overflow-hide {
+  overflow: hidden;
+}
+
+//Força tamanhos
+
+.width-grid {
+  @force-grid-base: 60px;
+  @force-grid-gutter: 20px;
+  &-auto {
+    width: auto;
+  }
+  &-1 {
+    width: @force-grid-base;
+  }
+
+  &-2 {
+    width: 2*@force-grid-base + @force-grid-gutter;
+  }
+
+  &-3 {
+    width: 3*@force-grid-base + 2*@force-grid-gutter;
+  }
+
+  &-4 {
+    width: 4*@force-grid-base + 3*@force-grid-gutter;
+  }
+
+  &-5 {
+    width: 5*@force-grid-base + 4*@force-grid-gutter;
+  }
+
+  &-6 {
+    width: 6*@force-grid-base + 5*@force-grid-gutter;
+  }
+
+  &-7 {
+    width: 7*@force-grid-base + 6*@force-grid-gutter;
+  }
+
+  &-8 {
+    width: 8*@force-grid-base + 7*@force-grid-gutter;
+  }
+
+  &-9 {
+    width: 9*@force-grid-base + 8*@force-grid-gutter;
+  }
+
+  &-10 {
+    width: 10*@force-grid-base + 9*@force-grid-gutter;
+  }
+
+  &-11 {
+    width: 11*@force-grid-base + 10*@force-grid-gutter;
+  }
+
+  &-12 {
+    width: 12*@force-grid-base + 11*@force-grid-gutter;
+  }
+}
+
+.height-grid {
+  @force-grid-base: 60px;
+  @force-grid-gutter: 20px;
+  &-auto {
+    height: auto;
+  }
+  &-1 {
+    height: @force-grid-base;
+  }
+
+  &-2 {
+    height: 2*@force-grid-base + @force-grid-gutter;
+  }
+
+  &-3 {
+    height: 3*@force-grid-base + 2*@force-grid-gutter;
+  }
+
+  &-4 {
+    height: 4*@force-grid-base + 3*@force-grid-gutter;
+  }
+
+  &-5 {
+    height: 5*@force-grid-base + 4*@force-grid-gutter;
+  }
+
+  &-6 {
+    height: 6*@force-grid-base + 5*@force-grid-gutter;
+  }
+
+  &-7 {
+    height: 7*@force-grid-base + 6*@force-grid-gutter;
+  }
+
+  &-8 {
+    height: 8*@force-grid-base + 7*@force-grid-gutter;
+  }
+
+  &-9 {
+    height: 9*@force-grid-base + 8*@force-grid-gutter;
+  }
+
+  &-10 {
+    height: 10*@force-grid-base + 9*@force-grid-gutter;
+  }
+
+  &-11 {
+    height: 11*@force-grid-base + 10*@force-grid-gutter;
+  }
+
+  &-12 {
+    height: 12*@force-grid-base + 11*@force-grid-gutter;
+  }
+}
+
+// ---------------------------------------------------------------
+//Cursores
+.cursor-default {
+  &:hover {
+    cursor: default;
+  }
+}
+
+.cursor-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.cursor-help {
+  &:hover {
+    cursor: help;
+  }
+}
+
+.cursor-text {
+  &:hover {
+    cursor: text;
+  }
+}
+
+.cursor-move {
+  &:hover {
+    cursor: move;
+  }
+}
+
+.cursor-wait {
+  &:hover {
+    cursor: wait;
+  }
+}
+
+.cursor-progress {
+  &:hover {
+    cursor: progress;
+  }
+}
+
+.cursor-crosshair {
+  &:hover {
+    cursor: crosshair;
+  }
+}
+
+// positions
+.pos-absolute {
+  position: absolute;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.pos-fixed {
+  position: fixed;
+}
+
+input[type=checkbox], input[type=radio] {
+  margin: 8px 0 0;
+  line-height: normal;
+}
+
+.checkbox label, .radio label {
+  margin-bottom: 0;
+  font-weight: 200;
+}
