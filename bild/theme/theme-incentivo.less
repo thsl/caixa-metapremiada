@@ -1,0 +1,69 @@
+#incentivo {
+  background-image: url("@{image-path-theme}/backgrounds/bck-002.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  min-height: 0;
+  height: auto;
+  .content-principal {
+    margin: 250px 0;
+
+    .content-site {
+      margin-top: 50px;
+      padding: 50px 0;
+      background-color: #daddcf;
+    }
+    .box-top {
+      border: 1px solid @white;
+      padding: 30px;
+      background-image: url("@{image-path-theme}/backgrounds/bck-cedula-02.jpg");
+    }
+    .accordion-incentivo {
+      margin: 50px 0;
+      color: #3a563f;
+      .panel {
+        background-color: transparent;
+      }
+      .panel-heading {
+        background-color: transparent;
+        border-bottom: 1px solid @white;
+        + .panel-collapse > .panel-body {
+          border-bottom: 1px solid @white;
+        }
+      }
+      .panel-title {
+        font-size: 20px;
+        color: #3a563f;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-left: 20px;
+        a:focus, a:active {
+          color: #3a563f;
+        }
+
+        .accordion-toggle {
+          position: relative;
+        }
+
+      }
+      .panel-heading .accordion-toggle:before {
+        background: url("@{image-path-theme}/icones/bullet-opened.png") no-repeat;
+        width: 21px;
+        height: 10px;
+        content: "";
+        position: absolute;
+        left: -20px;
+        top:6px;
+      }
+      .panel-heading .accordion-toggle.collapsed:before {
+        background: url("@{image-path-theme}/icones/bullet-closed.png") no-repeat;
+        width: 10px;
+        height: 21px;
+        content: "";
+        left: -20px;
+        top:0;
+      }
+    }
+  }
+}
